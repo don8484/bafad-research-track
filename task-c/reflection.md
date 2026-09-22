@@ -21,7 +21,7 @@ Consider: What patterns did you observe in the SMAP data? How might those patter
 
 **Your response (75–100 words):**
 
-> _Replace this text with your answer._
+Hands-on exploration connects the sensor-stream anomaly-detection problem to observable patterns. In Task A, 24 of 500 timesteps were labelled anomalous, but their channel 00 values overlapped the normal range. The heatmap also showed repeating structure across channels. An autoencoder would therefore need to learn normal relationships and temporal patterns, rather than simply flag large individual values. Training on normal data and validating reconstruction-error thresholds could help. Task B reinforced that filtering and missing-value handling affect statistical conclusions, so preprocessing choices also need careful checks in an anomaly-detection pipeline.
 
 ---
 
@@ -33,7 +33,7 @@ Be honest. There are no wrong answers — this helps us plan the onboarding sche
 
 **Your response (75–100 words):**
 
-> _Replace this text with your answer._
+I would describe my current experience as intermediate. To prepare for the research group, I plan to strengthen the transition from exploratory analysis to building and evaluating machine-learning models. My next study priorities are time-window preparation, autoencoder training, and choosing anomaly thresholds without using test data. I also plan to practice pandas grouped operations and check how missing values affect results. I will work through small reproducible examples, compare model predictions with known labels, and keep notes on errors and questions to discuss during onboarding.
 
 ---
 
