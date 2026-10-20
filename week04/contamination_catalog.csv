@@ -1,0 +1,6 @@
+filename,mode,variance,seed,n_rows,n_features,n_windows,windows
+1.csv,noise,2.5,42,800,8,2,"[(150, 230), (500, 580)]"
+2.csv,noise,2.5,42,1000,8,1,"[(200, 350)]"
+3.csv,noise,2.5,42,600,8,0,[]
+4.csv,noise,2.5,42,900,8,3,"[(100, 160), (400, 480), (700, 750)]"
+5.csv,noise,2.5,42,750,8,1,"[(300, 420)]"
